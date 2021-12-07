@@ -2,11 +2,7 @@ import styled from "styled-components";
 
 export const InfoContainer = styled.div`
   color: #fff;
-<<<<<<< HEAD
   background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
-=======
-  background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "010606#")};
->>>>>>> fe7a5dd4a9dfe86f42638bf530df6d30d01604f8
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -21,11 +17,7 @@ export const InfoWrapper = styled.div`
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
-<<<<<<< HEAD
   padding: 0 24px;
-=======
-  padding: 9 24px;
->>>>>>> fe7a5dd4a9dfe86f42638bf530df6d30d01604f8
   justify-content: center;
 `;
 
@@ -47,10 +39,6 @@ export const Column1 = styled.div`
   padding: 0 15px;
   grid-area: col1;
 `;
-<<<<<<< HEAD
-
-=======
->>>>>>> fe7a5dd4a9dfe86f42638bf530df6d30d01604f8
 export const Column2 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
@@ -78,7 +66,6 @@ export const Heading = styled.h1`
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-<<<<<<< HEAD
   color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#010606")};
 
   @media screen and (max-width: 480px) {
@@ -108,9 +95,4 @@ export const Img = styled.img`
   width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
-=======
-  color: ${({ lightText }) => (lightText ? "#f7f8fa" : "010606")};
-
-  @media screen and (max-width: 480px);
->>>>>>> fe7a5dd4a9dfe86f42638bf530df6d30d01604f8
 `;

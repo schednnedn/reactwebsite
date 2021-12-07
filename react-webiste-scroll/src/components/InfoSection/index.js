@@ -1,5 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
 import { Button } from "../ButtonElements";
 
 import {
@@ -65,34 +64,11 @@ const InfoSection = ({
                 <Img src={img} alt={alt} />
               </ImgWrap>
             </Column2>
-=======
-
-const Infosection = () => {
-  return (
-    <>
-      <InfoContainer id={id}>
-        <InfoWrapper>
-          <InfoRow>
-            <Column1>
-              <TextWrapper>
-                <TopLine>TopLine</TopLine>
-                <Heading>Heading</Heading>
-                <Subtitle>Subtitle</Subtitle>
-                <BtnWrap>
-                  <Button to="home">Button</Button>
-                </BtnWrap>
-              </TextWrapper>
-            </Column1>
->>>>>>> fe7a5dd4a9dfe86f42638bf530df6d30d01604f8
           </InfoRow>
         </InfoWrapper>
       </InfoContainer>
     </>
   );
 };
-<<<<<<< HEAD
 
 export default InfoSection;
-=======
-export default Infosection;
->>>>>>> fe7a5dd4a9dfe86f42638bf530df6d30d01604f8
