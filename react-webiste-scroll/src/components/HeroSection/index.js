@@ -28,7 +28,7 @@ const HeroSection = () => {
       <HeroContent>
         <HeroH1>Virtual Banking made Easy</HeroH1>
         <HeroP>
-          Sign Up fro a new account today and receive $250 in credit towards
+          Sign Up for a new account today and receive $250 in credit towards
           your next payment.{" "}
         </HeroP>
         <HeroBtnWrapper>

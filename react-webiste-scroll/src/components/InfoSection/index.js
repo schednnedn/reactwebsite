@@ -19,7 +19,7 @@ import {
 const InfoSection = ({
   lightBg,
   id,
-  imgStart,
+  imgstart,
   topLine,
   headline,
   lightText,
@@ -36,7 +36,7 @@ const InfoSection = ({
     <>
       <InfoContainer lightBg={lightBg} id={id}>
         <InfoWrapper>
-          <InfoRow imgStart={imgStart}>
+          <InfoRow imgstart={imgstart}>
             <Column1>
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>

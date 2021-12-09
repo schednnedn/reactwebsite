@@ -25,12 +25,12 @@ export const InfoRow = styled.div`
   display: grid;
   grid-auto-columns: minmax(auto, 1fr);
   align-items: center;
-  grid-template-areas: ${({ imgStart }) =>
-    imgStart ? `'col2 col1'` : `'col1 col2'`};
+  grid-template-areas: ${({ imgstart }) =>
+    imgstart ? `'col2 col1'` : `'col1 col2'`};
 
   @media screen and (max-width: 768px) {
-    grid-template-areas: ${({ imgStart }) =>
-      imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
+    grid-template-areas: ${({ imgstart }) =>
+      imgstart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
   }
 `;
 
@@ -55,7 +55,7 @@ export const TopLine = styled.p`
   color: #01bf71;
   font-size: 16px;
   line-height: 16px;
-  font-weight: 700;
+  font-weight: 700px;
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 16px;

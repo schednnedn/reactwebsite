@@ -61,7 +61,7 @@ export const SidebarLink = styled(LinkScroll)`
 
   &:hover {
     color: #01bf71;
-    transition: 0.2 ease-in-out;
+    transition: 0.2s ease-in-out;
   }
 `;
 
@@ -84,7 +84,7 @@ export const SidebarRoute = styled(LinkR)`
   text-decoration: none;
 
   &:hover {
-    transition: all 0.2 ease-in-out;
+    transition: all 0.2s ease-in-out;
     background: #fff;
     color: #010606;
   }
