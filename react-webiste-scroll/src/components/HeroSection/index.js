@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Video from "../../videos/video.mp4";
+import Video1 from "../../videos/video2.mp4";
 import { Button } from "../ButtonElements";
 import {
   HeroContainer,
@@ -23,14 +24,14 @@ const HeroSection = () => {
   return (
     <HeroContainer id="home">
       <HeroBg>
-        <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
+        <VideoBg autoPlay loop muted>
+          <source src={Video} type="video/mp4" />
+          <source src={Video1} type="video/mp4" />
+        </VideoBg>
       </HeroBg>
       <HeroContent>
-        <HeroH1>Virtual Banking made Easy</HeroH1>
-        <HeroP>
-          Sign Up for a new account today and receive $250 in credit towards
-          your next payment.{" "}
-        </HeroP>
+        <HeroH1>Create your perfect Diet Plan today!</HeroH1>
+        <HeroP>Sign Up and save your own Diet Plans and Recipes. </HeroP>
         <HeroBtnWrapper>
           <Button
             to="signup"

@@ -2,6 +2,8 @@ import React from "react";
 import Icon1 from "../../images/svg-4.svg";
 import Icon2 from "../../images/svg-5.svg";
 import Icon3 from "../../images/svg-6.svg";
+import Icon4 from "../../images/svg-7.svg";
+
 import {
   ServicesContainer,
   ServicesH1,
@@ -19,24 +21,23 @@ const Services = () => {
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1} />
-          <ServicesH2>Reduce expenses</ServicesH2>
-          <ServicesP>
-            We help reduce your fees and increase your overall revenue.
-          </ServicesP>
+          <ServicesH2>Food Calculator</ServicesH2>
+          <ServicesP>Calculate your Macros and Micros.</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2} />
-          <ServicesH2>Virtual Offices</ServicesH2>
-          <ServicesP>
-            You can access our platform online anywhere in the world.
-          </ServicesP>
+          <ServicesH2>Food Database</ServicesH2>
+          <ServicesP>The food database gets updated frequently.</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3} />
-          <ServicesH2>Premium Benefits</ServicesH2>
-          <ServicesP>
-            Unlock our special membership card that returns 5% cash back.
-          </ServicesP>
+          <ServicesH2>Needs Calculator</ServicesH2>
+          <ServicesP>A detailed calculator for your dail Diet plan.</ServicesP>
+        </ServicesCard>
+        <ServicesCard>
+          <ServicesIcon src={Icon4} />
+          <ServicesH2>Recipes</ServicesH2>
+          <ServicesP>Find New Recipes for your daily Diet!</ServicesP>
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>
