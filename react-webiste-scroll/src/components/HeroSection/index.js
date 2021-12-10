@@ -21,11 +21,17 @@ const HeroSection = () => {
     const videoSources = [Video, Video1]
     let videoSource = videoSources[0]
 
+    let index = 1
+
     const nextVideo = (e) => {
         e.preventDefault()
-        videoSource === videoSources[0]
-            ? (videoSource = videoSources[1])
-            : (videoSource = videoSources[0])
+        if (index >= videoSources.length) {
+            index = 0
+        }
+        videoSource = videoSources[index]
+
+        index++
+
         videoRef.current.src = videoSource
         videoRef.current.play()
     }
